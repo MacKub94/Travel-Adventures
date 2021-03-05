@@ -1,0 +1,32 @@
+aside {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--clr-primary-normal);
+  display: grid;
+  align-items: center;
+  top: -100%;
+  opacity: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+aside.active {
+  opacity: 100;
+  top: 0;
+}
+
+.close-icon {
+  color: white;
+  position: absolute;
+  top: 1rem;
+  right: 2.5rem;
+  font-size: 2.5rem;
+}
+
+@media screen and (min-width: 700px) {
+  aside {
+    display: none;
+  }
+}
