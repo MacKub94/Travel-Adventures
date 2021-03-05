@@ -3,3 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --clr-primary-dark: #e7c17f;
+  --clr-primary-normal: #eed7b6;
+  --clr-primary-light: #fbf4e4;
+}
