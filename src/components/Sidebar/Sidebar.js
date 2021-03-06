@@ -12,18 +12,18 @@ const Sidebar = () => {
         <FaTimes />
       </div>
       <ul className="sidebar-links">
-        <li>
-          <LinkS to="trips">Trips</LinkS>
-        </li>
-        <li>
-          <LinkS to="about">About Us</LinkS>
-        </li>
-        <li>
-          <LinkS to="gallery">Gallery</LinkS>
-        </li>
-        <li>
-          <LinkS to="contact">Contact</LinkS>
-        </li>
+        <LinkS to="trips" smooth={true} offset={-70} onClick={toogleSidebar}>
+          <li>Trips</li>
+        </LinkS>
+        <LinkS to="about" smooth={true} offset={-70} onClick={toogleSidebar}>
+          <li>About Us</li>
+        </LinkS>
+        <LinkS to="gallery" smooth={true} offset={-70} onClick={toogleSidebar}>
+          <li>Gallery</li>
+        </LinkS>
+        <LinkS to="contact">
+          <li>Contact</li>
+        </LinkS>
       </ul>
     </aside>
   );

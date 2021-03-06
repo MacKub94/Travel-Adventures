@@ -13,8 +13,8 @@ aside {
 }
 
 aside.active {
-  opacity: 100;
   top: 0;
+  opacity: 1;
 }
 
 .close-icon {

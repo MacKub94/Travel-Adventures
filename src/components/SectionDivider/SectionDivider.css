@@ -1,0 +1,13 @@
+.divider {
+  height: 20vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-divider {
+  background-image: url("../../images/section-divider1.png");
+}
+.second-divider {
+  background-image: url("../../images/section-divider2.png");
+}
