@@ -1,0 +1,44 @@
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.contact-info {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contact-info h4 {
+  margin-top: 15px;
+}
+
+.contact-container {
+  width: 90%;
+}
+
+.newsletter {
+  text-align: center;
+}
+.newsletter input {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid var(--clr-primary-dark);
+}
+.newsletter h2 {
+  margin: 20px 0;
+}
+.contact-icon {
+  font-size: 4rem;
+  color: var(--clr-primary-dark);
+}
+
+.newsletter button {
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10%;
+  background: var(--clr-primary-dark);
+  margin-top: 20px;
+}

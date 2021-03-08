@@ -4,8 +4,8 @@ aside {
   width: 100%;
   height: 100vh;
   background-color: var(--clr-primary-normal);
-  display: grid;
-  align-items: center;
+  /* display: grid; */
+  /* align-items: center; */
   top: -100%;
   opacity: 0;
   left: 0;
@@ -23,6 +23,29 @@ aside.active {
   top: 1rem;
   right: 2.5rem;
   font-size: 2.5rem;
+}
+
+.sidebar-links {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-links li {
+  list-style: none;
+  margin-top: 40px;
+  color: white;
+  font-size: 2rem;
+}
+
+.sidebar-links li:hover {
+  list-style: none;
+  margin-top: 40px;
+  color: var(--clr-primary-dark);
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 700px) {

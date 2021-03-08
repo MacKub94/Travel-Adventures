@@ -1,4 +1,22 @@
 .footer {
-  height: 70vh;
-  background: rgb(109, 73, 73);
+  width: 100%;
+  background: var(--clr-primary-dark);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 80%;
+  max-width: 1450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  color: white;
+}
+
+.footer-container a {
+  color: white;
+  padding-left: 30px;
+  font-size: 1.25rem;
 }

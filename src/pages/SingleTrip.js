@@ -1,9 +1,12 @@
 import React from "react";
+import "./SingleTrip.css";
+import { useParams } from "react-router-dom";
 
 const SingleTrip = () => {
+  console.log(useParams());
   return (
-    <div>
-      <h1>Single Trip</h1>
+    <div className="single-trip">
+      <h1>{useParams().destination}</h1>
     </div>
   );
 };

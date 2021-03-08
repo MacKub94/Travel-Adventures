@@ -3,8 +3,8 @@ import Hero from "../components/Hero/Hero";
 import Trips from "../components/Trips/Trips";
 import About from "../components/About/About";
 import Gallery from "../components/Gallery/Gallery";
-import Footer from "../components/Footer/Footer";
 import SectionDivider from "../components/SectionDivider/SectionDivider";
+import Contact from "../components/Contact/Contact";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <About />
       <SectionDivider divider={"second-divider"} />
       <Gallery />
-      <Footer />
+      <Contact />
     </>
   );
 };

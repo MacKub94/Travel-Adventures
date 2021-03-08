@@ -17,11 +17,12 @@ section {
 .section-title {
   text-align: center;
   font-size: 2rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.25rem;
   padding-top: 50px;
   padding-bottom: 50px;
-  color: var(--clr-primary-normal);
+  /* color: var(--clr-primary-dark); */
 }
+
 .section-title span {
   color: var(--clr-primary-dark);
 }

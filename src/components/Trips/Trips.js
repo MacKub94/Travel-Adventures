@@ -13,7 +13,7 @@ const Trips = () => {
       </h1>
       <div className="cards-container">
         {tripdata.map((trip) => {
-          return <TripCard trip={trip} />;
+          return <TripCard trip={trip} key={trip.id} />;
         })}
       </div>
     </section>

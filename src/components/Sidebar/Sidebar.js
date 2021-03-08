@@ -21,7 +21,7 @@ const Sidebar = () => {
         <LinkS to="gallery" smooth={true} offset={-70} onClick={toogleSidebar}>
           <li>Gallery</li>
         </LinkS>
-        <LinkS to="contact">
+        <LinkS to="contact" smooth={true} onClick={toogleSidebar}>
           <li>Contact</li>
         </LinkS>
       </ul>
