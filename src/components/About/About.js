@@ -13,7 +13,7 @@ const About = () => {
       <div className="about-container">
         <div className="person-container">
           <img src={person1} alt="person1" />
-          <h2 className="name">Sophia Smith</h2>
+          <h2 className="name">Ewa Nowak</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             dolorem modi molestias possimus quaerat iste soluta reiciendis
@@ -34,7 +34,7 @@ const About = () => {
         <div className="person-container">
           <img src={person2} alt="person2" />
 
-          <h2 className="name">John Smith</h2>
+          <h2 className="name">Piotr Nowak</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
             dolorem modi molestias possimus quaerat iste soluta reiciendis

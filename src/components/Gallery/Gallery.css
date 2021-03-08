@@ -1,0 +1,50 @@
+.gallery-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gallery-container img {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery-card-container {
+  aspect-ratio: 1 / 1;
+  margin-top: 40px;
+  position: relative;
+}
+
+.insta-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.5rem;
+  color: var(--clr-primary-dark);
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.gallery-card-container:hover .insta-icon {
+  opacity: 1;
+}
+.gallery-card-container:hover img {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 800px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .gallery-container {
+    max-width: 1450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+  }
+}
